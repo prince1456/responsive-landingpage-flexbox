@@ -3,21 +3,29 @@
   <head>
     <meta charset="utf-8">
     <title>Web Flex Practice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="css/media.css">
+    <script type="text/javascript" src="js/custom.js">
+
+    </script>
   </head>
-  <body>
+  <body >
+
       <header>
         <div class="navigation">
           <div class="logo"><img src="images/logo2.png" alt=""></div>
-            <ul class="top-nav">
-              <li>Home</li>
-              <li>About</li>
-              <li>Works</li>
-              <li>What We Do</li>
-              <li>Contact</li>
-            </ul>
+          <div class="topnav" id="myTopnav">
+            <a href="#home">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            <!-- <div class="logo2"><img src="images/logo2.png" alt=""></div> -->
+          </div>
         </div>
 
         <div class="main-slider">
@@ -69,34 +77,39 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               <button>Subscribe</button>
             </div>
+
           </div>
       </plans>
 
       <features>
         <div class="feature-section-one">
           <div class="fea-text">
-            <h1>Lorem ipsum dolor sit amet.</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, illo ullam aperiam repudiandae culpa perspiciatis labore laboriosam voluptates, natus impedit?</p>
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, illo ullam aperiam repudiandae culpa perspiciatis labore laboriosam voluptates, natus impedit?</p>
           </div>
           <div class="fea-image">
-            <img src="" alt="image for features">
+            <center><img src="images/fish.jpg" alt="image for features"></center>
           </div>
         </div>
         <hr>
         <div class="feature-section-two">
           <div class="feat-box">
+            <img src="images/tent.jpg" alt="">
             <h3>Lorem ipsum dolor.</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
           </div>
           <div class="feat-box">
+            <img src="images/tent.jpg" alt="">
+            <h3>Lorem ipsum dolor.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem autem omnis nisi, adipisci quas quod beatae quam unde sed, aliquid labore molestiae nulla nemo qui magni. Molestias recusandae impedit, odio.</p>
+          </div>
+          <div class="feat-box">
+            <img src="images/tent.jpg" alt="">
             <h3>Lorem ipsum dolor.</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
           </div>
           <div class="feat-box">
-            <h3>Lorem ipsum dolor.</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          </div>
-          <div class="feat-box">
+            <img src="images/tent.jpg" alt="">
             <h3>Lorem ipsum dolor.</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
           </div>
@@ -107,7 +120,8 @@
       <footer>
         <div class="footer-top">
           <div class="foot-sec">
-            <h4>Site Maps</h4>
+            <h2>Site Maps</h2>
+            <hr>
             <ul>
               <li>links</li>
               <li>links</li>
@@ -115,7 +129,8 @@
           </ul>
         </div>
           <div class="foot-sec">
-            <h4>Links</h4>
+            <h2>Links</h2>
+            <hr>
             <ul>
               <li>links</li>
               <li>links</li>
@@ -123,21 +138,23 @@
             </ul>
           </div>
           <div class="foot-sec">
-            <h4>Find Us</h4><br>
+            <h2>Find Us</h2>
+            <hr>
             address: <br>
             Email: <br>
             phone: <br>
           </div>
-          <div class="foot-sec">
+          <div class="foot-sec ">
             <h3>follow us</h3>
-            <ul>
+            <hr>
+            <ul class="social flex">
               <li><i class="fa fa-facebook-official" aria-hidden="true"></i></li>
               <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
               <li><i class="fa fa-google-plus-square" aria-hidden="true"></i></li>
             </ul>
           </div>
         </div>
-        <hr>
+        <hr class="hrr">
         <div class="footer-copyright">
           <div class="footer-nav">
             <ul>
